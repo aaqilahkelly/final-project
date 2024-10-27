@@ -313,4 +313,53 @@ form{
     pointer-events: none;
     font-size: 1cm;
     transition: 0.5s;
+    letter-spacing: 0.1cm;
+    color: #fff;
+    text-transform: uppercase;
+}
+.login-box .inputbox input:valid ~ span,
+.login-box .inputbox input:focus ~ span
+{
+    color: #333;
+    font-size: 0.85cm;
+    transform: translateY(-32px);
+}
+.login-box .inputbox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65));
+    transform-origin: 0.5s;
+    pointer-events: none;
+}
+.login-box .inputbox input:valid ~ i,
+.login-box .inputbox input:focus ~ i
+{
+    height: 100%;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.login-box .links{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.login-box .links a {
+    text-decoration: none;
+    color: #2196f3;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1cm;
+    font-size: 0.75cm;
+}
+.login-box .links a:nth-child(2){
+    color: #ff4685;
+}
+.login-box .inputbox input{
+    background: #2196f3;
+    cursor: pointer;
+    font-weight: 600;
 }
