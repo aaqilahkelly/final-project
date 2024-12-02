@@ -331,3 +331,15 @@ form .button input::hover{
         flex-direction: column;
     }
 }
+.qeeqee{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.qeeqee{
+    background: #fff;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 00.1);
+}
