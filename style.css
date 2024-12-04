@@ -9,6 +9,7 @@
     background: url(download\ \(3\).jpg) no-repeat;
     background-size: cover;
 }
+
 .top-nav{
     height: 70px;
     width: 100%;
@@ -95,7 +96,7 @@
     text-align: center;
 }
 .heroes{
-    background: url(hands.jpg);
+    background: url();
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -105,7 +106,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(rgba(99,0,77,0.65));
+    background:linear-gradient(rgba(99,0,77,0.65)),url(backg\ img1.jpeg);
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
@@ -192,14 +193,14 @@ body{
 	padding: 0;
 }
 .header{
-	background-color:  linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65)), url(images/background.png);
+	background-color:  linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65)),;
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
 	text-align: center;
 }
 .hero{
-	background-image:  linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65)), url(images/background.png);
+	background-image:  linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65)),;
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
@@ -212,7 +213,7 @@ body{
     align-items: center;
     padding: 10px;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65)), url(backg\ img1.jpeg);
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65));
 }
 .lira{
     max-width: 700px;
@@ -233,7 +234,7 @@ box-shadow: 0 5px 10px rgba(99, 0, 77, 0.65);
     left: 0;bottom: 0;
     height: 3px;
     width: 30px;border-radius: 5px;
-    background: linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65)), url(backg\ img1.jpeg);
+    background: linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65));
 }
 .lira form .user-details{
     display: flex;
@@ -342,4 +343,44 @@ form .button input::hover{
     width: 410px;
     padding: 30px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 00.1);
+}
+.about-hero{
+    background-image: ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.our-story {
+    padding: 20px;
+}
+.team{
+    padding: 20px;
+}
+.team-members{
+    display: contents;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images{
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
+      @media only screen and (max-width: 700px){
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px){
+        .responsive {
+          width: 100%;
+        }
+      }
 }
