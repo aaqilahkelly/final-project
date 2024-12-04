@@ -426,3 +426,26 @@ form input[type="submit"]:hover {
     margin-bottom: 20px;
   }
 }
+.testimonials {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0;
+}
