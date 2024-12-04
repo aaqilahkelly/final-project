@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer - AFK Organization</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               
+            </ul>
+        </nav>
+        <h1>AFK Organization</h1>
+        <h2>Keeping Your Loved Ones Safe</h2>
+    </header>
+    <main>
+        <section id="volunteer-intro">
+            <h2>Join Our Volunteer Team</h2>
+            <p>At AFK Organization, we believe in the power of community and the impact that dedicated volunteers can make. If you’re passionate about keeping families safe and want to contribute your time and skills, we’d love to have you on board.</p>
+        </section>
+        <section id="volunteer-opportunities">
+            <h2>Volunteer Opportunities</h2>
+            <ul>
+                <li><strong>Community Outreach:</strong> Help spread the word about our services and educate the public on safety practices.</li>
+                <li><strong>Event Coordination:</strong> Assist in planning and executing events to raise awareness and funds.</li>
+                <li><strong>Administrative Support:</strong> Provide vital support in our day-to-day operations.</li>
+                <li><strong>Technical Assistance:</strong> Use your tech skills to help maintain and improve our platform.</li>
+            </ul>
+        </section>
+        <section id="volunteer-form">
+            <h2>Volunteer Application Form</h2>
+            <form action="submit_volunteer_application" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="interest">Areas of Interest:</label>
+                <select id="interest" name="interest">
+                    <option value="community_outreach">Community Outreach</option>
+                    <option value="event_coordination">Event Coordination</option>
+                    <option value="admin_support">Administrative Support</option>
+                    <option value="tech_assistance">Technical Assistance</option>
+                </select>
+                <label for="message">Tell Us About Yourself:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <input type="submit" value="Apply Now">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AFK Organization. All rights reserved.</p>
+        <nav aria-label="Footer Navigation">
+</nav>
+</html>
