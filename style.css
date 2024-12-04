@@ -159,7 +159,7 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: #a245b7;
+    color: black;
 }
 button{
     background: #a245b7;
@@ -388,14 +388,17 @@ form .data input{
     flex-wrap: wrap;
     justify-content: center;
 }
-;
-  color: #fff;
+.gallery{
+    font: bold;
+}
+/* Volunteer and Donate Page Styles */
+.volunteer-intro, .donate-intro, .volunteer-opportunities, .donate-methods, .volunteer-form, .donate-form {
+    color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-
 form input[type="submit"]:hover {
   background-color: #0033cc;
 }
@@ -409,6 +412,7 @@ form input[type="submit"]:hover {
   form input[type="number"], 
   form select, 
   form textarea {
+    color: gray;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;

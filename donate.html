@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate - AFK Organization</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,9 +12,6 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="volunteer.html">Volunteer</a></li>
                 <li><a href="donate.html">Donate</a></li>
@@ -41,16 +38,16 @@
             <h2>Online Donation Form</h2>
             <form action="submit_donation" method="post">
                 <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" placeholder="Name" required>
                 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
                 
                 <label for="amount">Donation Amount:</label>
-                <input type="number" id="amount" name="amount" min="1" required>
+                <input type="number" id="amount" name="amount" min="1" placeholder="Amount" required>
                 
                 <label for="message">Message (optional):</label>
-                <textarea id="message" name="message" rows="4"></textarea>
+                <textarea id="message" name="message" rows="4" placeholder="Message"></textarea>
                 
                 <input type="submit" value="Donate Now">
             </form>
