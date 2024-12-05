@@ -106,7 +106,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(rgba(99,0,77,0.65)),url(backg\ img1.jpeg);
+    background:url(Cute\ outfit.jpg);
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
@@ -193,14 +193,14 @@ body{
 	padding: 0;
 }
 .header{
-	background-color:  linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65)),;
+	background: url(Cute\ outfit.jpg) ;
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
 	text-align: center;
 }
 .hero{
-	background-image:  linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65)),;
+	background-image: url(Cute\ outfit.jpg);
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
@@ -213,7 +213,7 @@ body{
     align-items: center;
     padding: 10px;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65));
+    background-image: url(Cute\ outfit.jpg);
 }
 .lira{
     max-width: 700px;
@@ -234,7 +234,7 @@ box-shadow: 0 5px 10px rgba(99, 0, 77, 0.65);
     left: 0;bottom: 0;
     height: 3px;
     width: 30px;border-radius: 5px;
-    background: linear-gradient(rgba(9,0,77,0.65),rgba(99,0,77,0.65));
+    background: url(Cute\ outfit.jpg);
 }
 .lira form .user-details{
     display: flex;
@@ -305,7 +305,7 @@ form .button input{
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: linear-gradient(135deg,rgba(9,0,77,0.65),rgba(99,0,77,0.65) );
+    background: url(Cute\ outfit.jpg);
 }
 form .button input::hover{
     background: linear-gradient(135deg, purple);
@@ -369,7 +369,7 @@ form .data input{
     border: 1px solid lightgrey;
 }
 .about-hero{
-    background-image: ;
+    background-image:url(Cute\ outfit.jpg) ;
     background-size: cover;
     height: 100vh;
     display: flex;
